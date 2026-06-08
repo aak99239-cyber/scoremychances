@@ -1,0 +1,42 @@
+{
+  "name": "ScoreMyChances",
+  "short_name": "ScoreMyChances",
+  "description": "AI-powered university admission and job acceptance predictor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0e1a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "College Predictor",
+      "short_name": "College",
+      "description": "Predict your university admission chances",
+      "url": "/?mode=college",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Career Predictor",
+      "short_name": "Career",
+      "description": "Predict your job application chances",
+      "url": "/?mode=job",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
